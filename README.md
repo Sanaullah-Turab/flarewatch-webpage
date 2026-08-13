@@ -1,4 +1,4 @@
-# Sigma FlareWatch — Website Page
+# Sigma FlareWatch —> Website Page
 
 Standalone Next.js build of the `/products/flarewatch` page, per the build brief.
 
@@ -44,4 +44,4 @@ All sections are self-contained components with no dependencies outside this rep
 - **Contact page**: the CTA buttons link to `/contact?subject=Sigma+FlareWatch+early+access` as specified. That route doesn't exist in this standalone repo (expected, per brief).
 - **Dashboard screenshot swap-in**: `<DashboardPlaceholder />` is left in place at the Section 5 position in `app/page.tsx`, as instructed. When the real screenshot is ready, swap in the laptop-frame mockup and the "Sigma FlareWatch live dashboard. Public launch August 2026." caption described in the brief.
 - No live deploy was set up (optional per the brief); the project builds and runs cleanly with `npm run build`.
-# flarewatch-webpage
+
